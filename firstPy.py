@@ -19,4 +19,3 @@ year_of_birth = current_year-age
 
 #Output-Display a message
 print("Hello", name, " ", surname, "you were born in", year_of_birth)
-
