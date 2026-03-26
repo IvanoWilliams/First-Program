@@ -8,16 +8,14 @@ print("=========")
 
 num_of_students = int(input("Hello, please enter the number of students in your Class: \n"))
 
-#craete empty list
+#create empty list
 studentList = []
 
-studentList.append("Ivano")
-studentList.insert(0,"Aidan")
-studentList[1] = "Lucin"
+#range of the num_of_students
+for y in range(num_of_students):
+    name = input("Enter student details: ") 
+    studentList.append(name)
 
-for y in range(0,num_of_students):
-    studentList[y] = input("Enter student details: ") 
-
-
-    for x in studentList:
-        print(x)
+#print the studentList
+for x in studentList:
+    print(x)
